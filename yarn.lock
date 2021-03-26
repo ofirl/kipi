@@ -1177,6 +1177,109 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@grapecity/spread-excelio@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-excelio/-/spread-excelio-14.0.9.tgz#13b41aa6371fd72bbccab90cc1fe1b8174f4753c"
+  integrity sha512-6b/CoX8M01JDtu3uEKb9Uy0UNEGSIMSjQRJUNs48ErX4iUbxt9ySr0LNYRtHMx2d0LDPGMYXUK2u3a4IfagaWQ==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-barcode@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-barcode/-/spread-sheets-barcode-14.0.9.tgz#b780009ffb4fe22ab0ef5295101d5c9e9f9498cf"
+  integrity sha512-npg14CA3uvQ32ifGoFciF2u3DCjvTVFk5DrZQWpcVqRLkQPDzxUMt4QuP5Dq+9yNR8Rm+7YlYBZ+Op13HHBWeQ==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-charts@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-charts/-/spread-sheets-charts-14.0.9.tgz#51646a7166e4defbba8c6b6a0bbca2257b70e499"
+  integrity sha512-kuhg+cZYylS9uzKllGphY/fliUlUnyoaNUPCdl3bU2dJIkI0+5VUham/1gwMyxAu6xqK9MPqOSlxwbHC8W9Ihw==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-designer-react@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-designer-react/-/spread-sheets-designer-react-14.0.9.tgz#103f53a72d3bd92fee8cc6fd20b00a75783a8a41"
+  integrity sha512-5QzI20DEzk5HMbaE0/hNqQdRHwnXPdEITpanXt0ZbAHNokGJA5Z+ZE5r0+5hNagYQpUy7yzKpUiA9pMSp09Jtw==
+
+"@grapecity/spread-sheets-designer-resources-en@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-designer-resources-en/-/spread-sheets-designer-resources-en-14.0.9.tgz#2e868f91bb10a2ec798063c92a7fb17ceb265eec"
+  integrity sha512-V8khr7SCTT8zMZrNBUCLbGW1S9Tq1Y+MYUIWMA0Vrl4hOF+oCGwRrQ+aOJC7Idpxl3oX/SWtfSftUJaIv3KTUQ==
+
+"@grapecity/spread-sheets-designer@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-designer/-/spread-sheets-designer-14.0.9.tgz#667579dc6df37ae3c076a263df30fa3d73a9e5d9"
+  integrity sha512-t2u6AieTuuoL8UnKPgxZuVezPnN3J/oS4yQ75qSbobIFJRW7l+kxme9WWmuUN+BQRWmw6aTr4WdPg/uXeOgKTw==
+
+"@grapecity/spread-sheets-languagepackages@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-languagepackages/-/spread-sheets-languagepackages-14.0.9.tgz#59257547fd6eec0de345b124105c351a8219d513"
+  integrity sha512-bRDP2YXgT2BJmge9LVyziippopTgTgK3OVTH3vskXmH5A7qhyw+9/ru2sPiYvD/w2pvKx973OCZV+OhZwJORCg==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-pdf@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-pdf/-/spread-sheets-pdf-14.0.9.tgz#9de6d8e42f2d995ad383bd750aa7bfbcb17be3b3"
+  integrity sha512-NpSIh9ycqAlkLdwmHfRrmZNZC8tXPhNPTdy4JLQXSmr6RVQEihhmGBz5AOGm/vYUKo2O/cE7BjolOhPGo2MPUQ==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+    "@grapecity/spread-sheets-print" "14.0.9"
+
+"@grapecity/spread-sheets-pivot-addon@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-pivot-addon/-/spread-sheets-pivot-addon-14.0.9.tgz#1566eb4e831adfa54f08c80452cc88c46658bf15"
+  integrity sha512-9A8Fp8xrwlx1738orrIjrRi15fpApXU0S0YHKJg3O6mjuXx3bC10+t+NKT6Aq1x3DiqewqK4Omm6uaLkz09vjQ==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-pivots@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-pivots/-/spread-sheets-pivots-14.0.0.tgz#33de7c4a2d227db87cf4509b0446e843a41fde92"
+  integrity sha512-4uSxdh5DZtP7tMhhVXaOJJY/8TvjzUv9rlRrSYAiBOZ3c7T4nElauTdwl8vf1AA8K2jxk2czCBNQLK+qAfgyrA==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.0"
+
+"@grapecity/spread-sheets-print@14.0.9", "@grapecity/spread-sheets-print@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-print/-/spread-sheets-print-14.0.9.tgz#a863664ccb9d4d03f6ba92de1467c81a81baffcf"
+  integrity sha512-vtdpUwfRfZRohiYV0vMuLA7yGpGAKVNOKWkI4+60d4WgCkCJ9NU90axrDw7xE81rywPrU5+O0ezRGNzZF1TYKg==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-react@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-react/-/spread-sheets-react-14.0.9.tgz#f2a3ec222f3ae9f692dfaf71b6345085a8954bda"
+  integrity sha512-EURhhtLPlG32Eo+0iA1CEbI7Vjh9icewCvGGSqqvwekYJWnjYgXeCJcInBcDzSUIO/W74qaHqEE4mGaj/zorXg==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-resources-ja@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-resources-ja/-/spread-sheets-resources-ja-14.0.9.tgz#8df77a9fdcd0ebc53d6199c2a102958d07efa9be"
+  integrity sha512-S5YhtJ6fBTQ9bL6WZfOi6RGaVYCbeF6wdF+bigyta9j/UQtG9prUtObQurpfR5uXleHeHW5FLIAxCOaW94S0bg==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets-shapes@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets-shapes/-/spread-sheets-shapes-14.0.9.tgz#1d00f4c5c3b43a3520578170b03af20d670ba31f"
+  integrity sha512-mPgYN8JFfYIuMrfkAaX9q5P2n9O0kPPXMDMmso5Y0FDXBOo8qnk4W2k8bWBhZ5OSWfCIHSDBKF3ucVG6D8BSBg==
+  dependencies:
+    "@grapecity/spread-sheets" "14.0.9"
+
+"@grapecity/spread-sheets@14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets/-/spread-sheets-14.0.0.tgz#d7e3dec9552fcea6998a63e09e7ddb152035e498"
+  integrity sha512-Om1aRHhw8bcSLG5Mxvq4aZhR1/sHR+ajN4PS6LrmhJYu/g7thl0/8ZEQBBcX9p0l/bqvJrcYH5u6eV14h+l9dw==
+
+"@grapecity/spread-sheets@14.0.9", "@grapecity/spread-sheets@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@grapecity/spread-sheets/-/spread-sheets-14.0.9.tgz#04e1bc19ab06281f8dfa1e6d774137edc84cc3d3"
+  integrity sha512-oaA5DGL3aMVJek3aYV8WF0KldDl6vJhEu1mr8GGv57FJ5fgCT0/mzBhj85L0EGRfspFo/UEb+bBTGmb+7S9QtQ==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
