@@ -1,0 +1,38 @@
+﻿(function () { Innovasys.DynamicToc.injectNodeInfo("n7967", "c380", [
+{"id":"n7968","t":"aggregateData","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~aggregateData.html"},
+{"id":"n7970","t":"attachListener","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~attachListener.html"},
+{"id":"n7972","t":"clearPreview","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~clearPreview.html"},
+{"id":"n7974","t":"detachListener","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~detachListener.html"},
+{"id":"n7976","t":"doFilter","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~doFilter.html"},
+{"id":"n7978","t":"doUnfilter","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~doUnfilter.html"},
+{"id":"n7980","t":"getColumnIndex","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getColumnIndex.html"},
+{"id":"n7982","t":"getData","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getData.html"},
+{"id":"n7984","t":"getExclusiveData","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getExclusiveData.html"},
+{"id":"n7986","t":"getExclusiveRowIndex","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getExclusiveRowIndex.html"},
+{"id":"n7988","t":"getFilteredIndexes","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredIndexes.html"},
+{"id":"n7990","t":"getFilteredOutIndexes","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredOutIndexes.html"},
+{"id":"n7992","t":"getFilteredOutRanges","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredOutRanges.html"},
+{"id":"n7994","t":"getFilteredOutRowIndexes","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredOutRowIndexes.html"},
+{"id":"n7996","t":"getFilteredRanges","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredRanges.html"},
+{"id":"n7998","t":"getFilteredRowIndexes","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getFilteredRowIndexes.html"},
+{"id":"n8000","t":"getRowIndexes","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~getRowIndexes.html"},
+{"id":"n8002","t":"inPreview","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~inPreview.html"},
+{"id":"n8004","t":"onColumnNameChanged","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onColumnNameChanged.html"},
+{"id":"n8006","t":"onColumnsRemoved","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onColumnsRemoved.html"},
+{"id":"n8008","t":"onDataChanged","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onDataChanged.html"},
+{"id":"n8010","t":"onFiltered","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onFiltered.html"},
+{"id":"n8012","t":"onRowsAdded","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onRowsAdded.html"},
+{"id":"n8014","t":"onRowsRemoved","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~onRowsRemoved.html"},
+{"id":"n8016","t":"resumeFilteredEvents","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~resumeFilteredEvents.html"},
+{"id":"n8018","t":"suspendFilteredEvents","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~suspendFilteredEvents.html"},
+])})();
+(function () { Innovasys.DynamicToc.injectNodeInfo("n8021", "c380", [
+{"id":"n8022","t":"columnNames","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~columnNames.html"},
+{"id":"n8024","t":"data","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~data.html"},
+])})();
+(function () { Innovasys.DynamicToc.injectNodeInfo("n7962", "c0", [
+{"id":"n7963","t":"Overview","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData.html"},
+{"id":"n7965","t":"GeneralSlicerData Constructor","u":"SpreadJS~GC.Spread.Slicers.GeneralSlicerData~_ctor.html"},
+{"id":"n7967","t":"Methods","cc":"c380"},
+{"id":"n8021","t":"Fields","cc":"c380"},
+])})();

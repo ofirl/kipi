@@ -1,0 +1,37 @@
+﻿(function () { Innovasys.DynamicToc.injectNodeInfo("n3249", "c118", [
+{"id":"n3250","t":"Condition","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~Condition.html"},
+{"id":"n3252","t":"ConditionalFormats","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ConditionalFormats.html"},
+{"id":"n3254","t":"ConditionRuleBase","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ConditionRuleBase.html"},
+{"id":"n3256","t":"DataBarRule","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~DataBarRule.html"},
+{"id":"n3258","t":"IconCriterion","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~IconCriterion.html"},
+{"id":"n3260","t":"IconSetRule","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~IconSetRule.html"},
+{"id":"n3262","t":"NormalConditionRule","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~NormalConditionRule.html"},
+{"id":"n3264","t":"ScaleRule","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ScaleRule.html"},
+{"id":"n3266","t":"ScaleValue","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ScaleValue.html"},
+])})();
+(function () { Innovasys.DynamicToc.injectNodeInfo("n3269", "c118", [
+{"id":"n3270","t":"AverageConditionType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~AverageConditionType.html"},
+{"id":"n3272","t":"BarDirection","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~BarDirection.html"},
+{"id":"n3274","t":"ColorCompareType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ColorCompareType.html"},
+{"id":"n3276","t":"ComparisonOperators","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ComparisonOperators.html"},
+{"id":"n3278","t":"ConditionType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ConditionType.html"},
+{"id":"n3280","t":"CustomValueType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~CustomValueType.html"},
+{"id":"n3282","t":"DataBarAxisPosition","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~DataBarAxisPosition.html"},
+{"id":"n3284","t":"DateCompareType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~DateCompareType.html"},
+{"id":"n3286","t":"DateOccurringType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~DateOccurringType.html"},
+{"id":"n3288","t":"GeneralComparisonOperators","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~GeneralComparisonOperators.html"},
+{"id":"n3290","t":"IconSetType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~IconSetType.html"},
+{"id":"n3292","t":"IconValueType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~IconValueType.html"},
+{"id":"n3294","t":"LogicalOperators","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~LogicalOperators.html"},
+{"id":"n3296","t":"QuarterType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~QuarterType.html"},
+{"id":"n3298","t":"RuleType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~RuleType.html"},
+{"id":"n3300","t":"ScaleValueType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~ScaleValueType.html"},
+{"id":"n3302","t":"TextCompareType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~TextCompareType.html"},
+{"id":"n3304","t":"TextComparisonOperators","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~TextComparisonOperators.html"},
+{"id":"n3306","t":"Top10ConditionType","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting~Top10ConditionType.html"},
+])})();
+(function () { Innovasys.DynamicToc.injectNodeInfo("n3246", "c0", [
+{"id":"n3247","t":"Overview","u":"SpreadJS~GC.Spread.Sheets.ConditionalFormatting.html"},
+{"id":"n3249","t":"Methods","cc":"c118"},
+{"id":"n3269","t":"Fields","cc":"c118"},
+])})();

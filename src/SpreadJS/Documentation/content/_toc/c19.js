@@ -1,0 +1,25 @@
+﻿(function () { Innovasys.DynamicToc.injectNodeInfo("n2117", "c19", [
+{"id":"n2118","t":"add","u":"SpreadJS~GC.Spread.Pivot.PivotTable~add.html"},
+{"id":"n2120","t":"collapse","u":"SpreadJS~GC.Spread.Pivot.PivotTable~collapse.html"},
+{"id":"n2122","t":"dataPosition","u":"SpreadJS~GC.Spread.Pivot.PivotTable~dataPosition.html"},
+{"id":"n2124","t":"group","u":"SpreadJS~GC.Spread.Pivot.PivotTable~group.html"},
+{"id":"n2126","t":"labelFilter","u":"SpreadJS~GC.Spread.Pivot.PivotTable~labelFilter.html"},
+{"id":"n2128","t":"layoutType","u":"SpreadJS~GC.Spread.Pivot.PivotTable~layoutType.html"},
+{"id":"n2130","t":"name","u":"SpreadJS~GC.Spread.Pivot.PivotTable~name.html"},
+{"id":"n2132","t":"position","u":"SpreadJS~GC.Spread.Pivot.PivotTable~position.html"},
+{"id":"n2134","t":"refresh","u":"SpreadJS~GC.Spread.Pivot.PivotTable~refresh.html"},
+{"id":"n2136","t":"remove","u":"SpreadJS~GC.Spread.Pivot.PivotTable~remove.html"},
+{"id":"n2138","t":"resumeLayout","u":"SpreadJS~GC.Spread.Pivot.PivotTable~resumeLayout.html"},
+{"id":"n2140","t":"sort","u":"SpreadJS~GC.Spread.Pivot.PivotTable~sort.html"},
+{"id":"n2142","t":"subTotalType","u":"SpreadJS~GC.Spread.Pivot.PivotTable~subTotalType.html"},
+{"id":"n2144","t":"suspendLayout","u":"SpreadJS~GC.Spread.Pivot.PivotTable~suspendLayout.html"},
+{"id":"n2146","t":"theme","u":"SpreadJS~GC.Spread.Pivot.PivotTable~theme.html"},
+{"id":"n2148","t":"ungroup","u":"SpreadJS~GC.Spread.Pivot.PivotTable~ungroup.html"},
+{"id":"n2150","t":"updateField","u":"SpreadJS~GC.Spread.Pivot.PivotTable~updateField.html"},
+{"id":"n2152","t":"valueFilter","u":"SpreadJS~GC.Spread.Pivot.PivotTable~valueFilter.html"},
+])})();
+(function () { Innovasys.DynamicToc.injectNodeInfo("n2112", "c0", [
+{"id":"n2113","t":"Overview","u":"SpreadJS~GC.Spread.Pivot.PivotTable.html"},
+{"id":"n2115","t":"PivotTable Constructor","u":"SpreadJS~GC.Spread.Pivot.PivotTable~_ctor.html"},
+{"id":"n2117","t":"Methods","cc":"c19"},
+])})();
