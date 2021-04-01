@@ -6,12 +6,12 @@ import { SpeedDial, SpeedDialAction, SpeedDialIcon } from '@material-ui/lab';
 
 import SaveIcon from '@material-ui/icons/Save';
 import PrintIcon from '@material-ui/icons/Print';
-import ShareIcon from '@material-ui/icons/Share';
 
 import { HotTable } from '@handsontable/react';
 import Handsontable from 'handsontable';
 
 import 'handsontable/dist/handsontable.full.css';
+import { Link } from 'react-router-dom';
 
 // const testData = [
 //     ["", "Ford", "Volvo", "Toyota", "Honda"],
@@ -31,12 +31,15 @@ const useStyles = makeStyles(theme =>
 );
 export interface DesignerContainerProps {
     initialData?: TableData,
-    onSave?: (data: any) => void;
+    onSave?: (data: any) => void,
+    name?: string,
 }
-export const DesignerContainer = ({ initialData: { data, mergeCells } = {} }: DesignerContainerProps) => {
+export const DesignerContainer = ({ initialData: { data, mergeCells } = {}, onSave, name }: DesignerContainerProps) => {
     const [speedDialOpen, setSpeedDialOpen] = useState(false);
     const updatedData = useRef(data || [[]]);
     const updatedMergeCells = useRef<Handsontable.mergeCells.Settings[]>(mergeCells || []);
+
+    const hotTableRef = useRef(null);
 
     const classes = useStyles();
 
@@ -51,12 +54,19 @@ export const DesignerContainer = ({ initialData: { data, mergeCells } = {} }: De
     const onSaveButtonClick = () => {
         console.log(updatedData.current);
         console.log(updatedMergeCells.current);
+
+        onSave && onSave({ data: updatedData.current, mergeCells: updatedMergeCells.current })
+    };
+
+    const onDownload = () => {
+        // @ts-ignore
+        hotTableRef.current?.hotInstance.getPlugin('exportFile').downloadFile('csv', { filename: `${name || 'KipiTable'}.xls` });
     };
 
     const speedDialActions = [
+        { icon: <Link to="/"> back </Link>, name: 'Back' },
         { icon: <SaveIcon />, name: 'Save', onClick: onSaveButtonClick },
-        { icon: <PrintIcon />, name: 'Print' },
-        { icon: <ShareIcon />, name: 'Share' },
+        { icon: <PrintIcon />, name: 'Download', onClick: onDownload },
     ];
 
     const onDataChange = (change: Handsontable.CellChange[], source?: Handsontable.ChangeSource) => {
@@ -101,6 +111,7 @@ export const DesignerContainer = ({ initialData: { data, mergeCells } = {} }: De
                 ))}
             </SpeedDial>
             <HotTable
+                ref={hotTableRef}
                 afterMergeCells={onMergeChange}
                 afterUnmergeCells={onUnmergeChange}
                 manualColumnResize

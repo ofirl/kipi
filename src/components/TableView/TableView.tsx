@@ -5,6 +5,8 @@ import { useParams } from 'react-router';
 
 import { DesignerContainer } from '../DesignerContainer/DesignerContainer';
 import { Typography } from '@material-ui/core';
+import axios from 'axios';
+import { SERVER_URL } from '../../utils/consts';
 
 const TableView = () => {
     const { tableId } = useParams<PathParams>();
@@ -12,18 +14,28 @@ const TableView = () => {
     const [tableName, setTableName] = useState('');
 
     useEffect(() => {
-        console.log(tableId);
+        axios.get(`${SERVER_URL}/get/${tableId}`).then((res) => {
+            if (res.status !== 200) {
+                console.log('error');
+                return;
+            }
 
-        setTableData({
-            data: [[]],
-            mergeCells: [],
+            setTableData(res.data.data);
+
+            setTableName(res.data.name);
         });
 
-        setTableName('asdasd');
     }, [tableId]);
 
     const onSave = (updatedData: TableData) => {
-        console.log(updatedData)
+        axios.post(`${SERVER_URL}/update/${tableId}`, updatedData).then((res) => {
+            if (res.status !== 200) {
+                console.log('error');
+                return;
+            }
+
+            return true;
+        });
     };
 
     return tableData ?
