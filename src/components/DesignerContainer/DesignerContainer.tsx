@@ -1,50 +1,69 @@
-/* eslint-disable import/first */
-import React from 'react';
+import React, { useState } from 'react';
 
-import GC from '@grapecity/spread-sheets';
-import designerResEn from '@grapecity/spread-sheets-designer-resources-en';
+import 'handsontable/dist/handsontable.full.css';
 
-// @ts-ignore
-GC.Spread.Sheets.DesignerRes = designerResEn;
+import { HotTable } from '@handsontable/react';
+import Handsontable from 'handsontable';
 
-import { Designer } from '@grapecity/spread-sheets-designer-react';
-import '@grapecity/spread-sheets-designer-resources-en';
-import "@grapecity/spread-sheets-designer/styles/gc.spread.sheets.designer.min.css"
-import "@grapecity/spread-sheets/styles/gc.spread.sheets.excel2013white.css"
-
-import { SpreadSheets, Worksheet, Column } from '@grapecity/spread-sheets-react';
-import { designerDefaultConfig } from './defaultConfig';
-
-// GC.Spread.Sheets.LicenseKey = 'asd';
-
-const data = [
-    { Name: 'Apple', Category: 'Fruit', Price: 1, 'Shopping Place': 'Wal-Mart' },
-    { Name: 'Potato', Category: 'Fruit', Price: 2.01, 'Shopping Place': 'Other' },
-    { Name: 'Tomato', Category: 'Vegetable', Price: 3.21, 'Shopping Place': 'Other' },
-    { Name: 'Sandwich', Category: 'Food', Price: 2, 'Shopping Place': 'Wal-Mart' },
-    { Name: 'Hamburger', Category: 'Food', Price: 2, 'Shopping Place': 'Wal-Mart' },
-    { Name: 'Grape', Category: 'Fruit', Price: 4, 'Shopping Place': 'Sun Store' }
+const testData = [
+    ["", "Ford", "Volvo", "Toyota", "Honda"],
+    ["2016", 10, 11, 12, 13],
+    ["2017", 20, 11, 14, 13],
+    ["2018", 30, 15, 12, 13],
 ];
 
+export interface DesignerContainerProps {
+    onSave: (data: any[][]) => void;
+}
 export const DesignerContainer = () => {
+    const [data, setData] = useState(testData);
+
+    const onDataChange = (change: Handsontable.CellChange[], source?: Handsontable.ChangeSource) => {
+        change.forEach(([row, column, prevValue, newValue]) => {
+            console.log(newValue);
+        });
+    };
+
     return (
         <div style={{ height: '100%' }}>
-            <Designer styleInfo={{ width: "1500px", height: '90vh' }} config={designerDefaultConfig} >
-                {/* <SpreadSheets backColor={'aliceblue'}>
-                    <Worksheet name={'sheet1'}>
-                    </Worksheet>
-                </SpreadSheets> */}
-            </Designer>
-
-            {/* <SpreadSheets backColor={'aliceblue'}>
-                <Worksheet name={'sheet1'}>
-                    <Column dataField='Name' width={300}></Column>
-                    <Column dataField='Category' width={100}></Column>
-                    <Column dataField='Price' width={100}
-                        formatter="$#.00"></Column>
-                    <Column dataField='Shopping Place' width={100}></Column>
-                </Worksheet>
-            </SpreadSheets> */}
+            <HotTable
+                manualColumnResize
+                manualColumnFreeze
+                manualColumnMove
+                manualRowResize
+                manualRowMove
+                contextMenu
+                formulas
+                collapsibleColumns
+                columnSorting
+                allowEmpty
+                comments
+                copyPaste
+                copyable
+                correctFormat
+                dragToScroll
+                dropdownMenu
+                fillHandle
+                filter
+                filters
+                headerTooltips
+                hiddenColumns
+                hiddenRows
+                minSpareRows={2}
+                minSpareCols={2}
+                mergeCells
+                // nestedRows
+                renderAllRows
+                search
+                stretchH="all"
+                title="title"
+                licenseKey='non-commercial-and-evaluation'
+                afterSetDataAtCell={onDataChange}
+                data={data}
+                colHeaders={true}
+                rowHeaders={true}
+                width="100%"
+                height="100%" />
         </div>
     );
 };
